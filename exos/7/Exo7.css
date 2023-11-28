@@ -1,0 +1,23 @@
+body {
+    background-color: #5e3c3c;
+    color: #fff7f7;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    font-size: 16px;
+    color: #fffcfc;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+ul, ol {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
