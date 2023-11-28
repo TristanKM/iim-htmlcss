@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    min-height: 100vh;
+}
+
+.square {
+    min-width: 200px;
+    margin-right: 20px;
+    background-color: #3b3b3b;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bande-gauche {
+    flex: 1;
+    background-color: #717571;
+    padding: 20px;
+}
+
+.bande-droite {
+    flex: 3;
+    background-color: #fff;
+    padding: 20px;
+}
+
+header, footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile {
+    flex: 1;
+    min-width: 200px;
+    margin-right: 20px;
+}
+
+.experience, .education, .languages {
+    flex: 2;
+    min-width: 400px;
+}
