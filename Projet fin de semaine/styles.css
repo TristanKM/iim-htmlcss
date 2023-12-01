@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #001f3f;
+    color: white;
     display: flex;
     flex-direction: column;
 }
@@ -77,6 +78,49 @@ main {
 section {
     padding: 20px;
 }
+
+#livres {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.livre {
+    width: 45%;
+    margin: 20px;
+    text-align: center;
+}
+
+.livre img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.livre h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.livre p {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.livre a {
+    display: block;
+    margin-top: 10px;
+    background-color: #001f3f;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.livre a:hover {
+    background-color: #ffc107;
+}
+
 
 footer {
     background-color: rgb(1, 15, 29);
